@@ -1,0 +1,10 @@
+x=input()
+x=int(x)
+cem=x//100
+cinquenta=(x%100)//50
+vinte=(x%100%50)//20
+dez=(x%100%50%20)//10
+cinco=(x%100%50%20%10)//5
+dois=(x%100%50%20%10%5)//2
+um=(x%100%50%20%10%5%2)//1
+print(x,'\n',cem,' nota(s) de R$100,00\n',cinquenta,' nota(s) de R$50,00\n',vinte,' nota(s) de R$20,00\n',dez,' nota(s) de R$10,00\n', cinco, ' nota(s) de R$5,00\n',dois, ' nota(s) de R$ 2,00\n', um, ' nota(s) de R$ 1,00',sep='')
