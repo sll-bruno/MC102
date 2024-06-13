@@ -137,3 +137,4 @@ def parte_dois(arvores_candidatas,area):
 
 if __name__ == "__main__":
     main()
+    #Roda o código completo
